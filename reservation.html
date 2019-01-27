@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oakdale Hotel | Reservation</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Lato:300,300i,400,400i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&amp;subset=latin-ext" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <header> 
+
+    <div class="grid-x grid-padding-x">
+      <div class="small-12 medium-12 cell">
+        <div class="logo">
+          <a href="index.html"><img src="img/oakdale.jpg"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- menu -->
+  <div class="grid-x grid-padding-x small-12">
+    <nav class="hover-underline-menu" data-menu-underline-from-center>
+      <ul class="menu align-center">
+        <li><a href="reservation.html">Reservations</a></li>
+        <li><a href="events.html">Events and Meetings</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <!-- end of menu -->
+<div class="grid-x grid-container-x">
+<section class="small-12 medium-6 medium-centered cell form">
+<form action="index.html" method="GET">
+  <fieldset>
+    <label for="name">Username:</label><input type="text" name="username" id="name" required autofocus placeholder="Username" pattern="[a-zA-Z]{8,}" title="Please enter 8 or more letters">
+    <label for="email">Email:</label><input type="text" name="email" id="email" require placeholder="Email" pattern="[a-zA-Z]{8,}@[a-zA-Z{8,}[.]{1}[a-zA-Z]{2,}" title="Please enter a valid email address">
+   <label for="phone">Phone:</label><input type="tel" name="phone" id="phone" required placeholder="Phone Number" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" title="Please enter your phone number in this format: ###-###-####">
+   <select id="country" name="country" required>
+      <option value="Not Selected">Not Selected</option>
+      <option value="US">US</option>
+      <option value="UK">UK</option>
+      <option value="Canada">Canada</option>
+    </select>
+  </fieldset>
+  <br>
+  <fieldset>
+    <label for="date">Start Date:</label><input id="date" type="date" name="date" min="2019-01-21">
+    <label for="date">End Date:</label><input id="date" type="date" name="date" min="2019-01-21">
+    <label for="numberOfGuests">Number of Guests: </label><input type="number" name="numberOfGuests" min="1" max="6">
+    <br>
+    <p>Are you hosting an event or meeting?</p>
+    <select id="meeting" name="event-or-meeting" required>
+       <option value="Not Selected">Not Selected</option>
+       <option value="Event">Event</option>
+       <option value="Meeting">Meeting</option>
+     </select>
+     <br>
+    <p>Do you want an ocean view?</p>
+  
+  <div class="view">
+      <select name="view" required>
+         <option value="Not Selected">Not Selected</option>
+         <option value="Yes">Yes</option>
+         <option value="No">No</option>
+       </select>
+  </div>
+    <br>
+    <div class="grid-x">
+    <section class="submit small-12 ">
+    <div class="ecommerce-loading-button text-center">
+      <div class="loading-button">
+        <button type="button" class="primary button" data-loading-start>
+          Submit
+        </button>
+        <button type="button" class="primary button hide" data-loading-end> 
+          <i class='fa fa-refresh fa-spin'></i> Processing
+        </button>
+      </div> <!-- refresh -->
+      <div data-success-message class="callout success hide">
+        Thanks, your order has been processed!
+      </div>
+    </section>
+  </div>
+    </div>
+  </fieldset>
+</form>
+</div>
+</section>
+</div>
+
+
+<!-- end form -->
+
+
+
+
+<!-- footer -->
+    <footer>
+      <h5>Copyright | All Rights Reserved</h5>
+     </footer> 
+<!-- end footer -->
+    
+  </body>
+  <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</html>
