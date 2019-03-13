@@ -1,0 +1,758 @@
+/****HEADER****/
+
+body {
+
+font-family: 'Domine', serif;
+
+}
+
+header img {
+
+width: 100%;
+margin-bottom: 3rem;
+margin-top: 3rem;
+
+}
+
+.logo {
+
+  width: 400px;
+  margin: 0 auto;
+}
+
+header {
+
+background-color: #fff;
+}
+
+/****END HEADER****/
+
+/****INDEX PAGE****/
+.hotel img {
+
+width: 100%;
+}
+
+.main {
+
+text-align: center;
+margin: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 95%;
+font-size: 1rem;
+}
+
+.ocean p, .room p, .taxi p {
+
+font-family: 'Domine', serif;
+font-weight: 400;
+}
+
+.ocean img {
+
+width: 70%;
+height: 200px;
+}
+
+.room2 img {
+
+width: 70%;
+height: 200px;
+}
+
+.taxi img {
+
+width: 70%;
+height: 200px;
+}
+
+.paragraph h2 {
+
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-weight: 300;
+font-size: 3rem;
+}
+
+.paragraph p {
+
+text-align: left;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+width: 60%;
+font-size: 18px;
+margin-left: 20%;
+}
+
+.paragraph {
+
+padding: 30px;
+width: 95%;
+text-align: left;
+}
+/****END INDEX PAGE****/
+
+/****MENU****/
+.hover-underline-menu {
+  width: 100%;
+}
+
+.hover-underline-menu .menu {
+  background-color: #006838;
+}
+
+.hover-underline-menu .menu a {
+  color: #fefefe;
+  padding: 1.2rem 1.5rem;
+}
+
+.hover-underline-menu .menu .underline-from-center {
+  position: relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 0.125rem);
+  border-bottom: 0.125rem solid #fefefe;
+  left: 50%;
+  right: 50%;
+  transition: all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after {
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
+}
+/****END MENU****/
+
+/****ABOUT PAGE****/
+.history {
+
+padding: 3%;
+font-family: 'Domine', serif;
+font-weight: 400;
+font-size: 23px;
+}
+
+.history h3 {
+
+font-weight: 400;
+font-family: 'Dancing Script', cursive;
+text-align: left;
+font-size: 50px;
+margin: 0;
+}
+
+/*staff bios*/
+.lady, .chef, .trainer {
+
+border-style: solid;
+border-color: #fff;
+background-size: 400px;
+background-repeat: no-repeat;
+height: 700px;
+background-color: #006838;
+}
+
+.lady {
+
+background-image: url(..//img/lady.jpg);
+background-position: center;
+
+}
+
+.chef {
+
+background-image: url(..//img/chef.jpg);
+background-position: center;
+
+}
+
+.trainer {
+
+background-image: url(..//img/male.jpg);
+background-position: center;
+
+}
+
+.words {
+
+opacity: 0;
+transition: opacity .5s;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+}
+
+.words:hover { 
+
+opacity: 1;
+background-color: rgba(255,255,255, 0.7);
+width: 100%;
+padding: 10px;
+height: 700px;
+color: #000;
+}
+
+.pictures h3, h4 {
+
+text-align: center;
+margin: 20px;
+font-size: 2rem;
+font-family: 'Lato' , sans-serif;
+font-weight: 700;
+}
+
+ul, li {
+
+font-size: 20px;
+text-align: left;
+padding: 10px;
+list-style: none;
+
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+  left: 10px;
+  right: 10px;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.container:hover .overlay {
+  opacity: 0;
+}
+
+.text {
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+
+
+}
+/*end staff bios*/
+
+/*hours*/
+.hours h3 {
+
+font-size: 25px;
+text-decoration: underline;
+font-family: 'Domaine' , serif;
+font-weight: 700;
+}
+
+.hours li {
+
+font-size: 18px;
+list-style: none;
+text-align: left;
+font-family: 'Lato', sans-serif;
+}
+
+.hours {
+
+padding: 2%;
+background-color: #fff;
+color: #000;
+text-align: center;
+}
+
+.hours a {
+
+color: #000;
+}
+
+.last li {
+
+text-align: left;
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+color: #000;
+}
+
+.last h3 {
+
+text-align: center;
+color: #000;
+}
+
+.last i {
+
+color: #000;
+}
+/*end hours*/
+
+/****END ABOUT PAGE****/
+
+/****RESERVATIONS****/
+
+.games img{
+
+width: 100%;
+}
+
+.games p {
+
+font-family: "Dancing Script", cursive;
+font-size: 3rem;
+width: 100%;
+background-color: #006838;
+text-align: center;
+color: #ffffff;
+}
+.view select option  {
+
+font-size: 10px;
+}
+
+form {
+  
+  margin: 0 auto;
+}
+
+
+form .form-icons {
+  text-align: center;
+}
+
+form .form-icons h4 {
+  margin-bottom: 1rem;
+  font-family: 'Domine', serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+form .form-icons .input-group-label {
+  background-color: #006838;
+  border-color: #006838;
+}
+
+form .form-icons .input-group-field {
+  border-color: #006838;
+}
+
+form .form-icons .fa {
+  color: white;
+  width: 1rem;
+}
+
+.button {
+
+background-color: #006838;
+font-family: 'Domine', serif;
+font-weight: 400;
+font-size: 20px;
+padding: 10px;
+}
+
+.form {
+
+padding: 40px;
+width: 50%;
+margin: 0 auto;
+}
+
+select{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loading-button .button {
+
+background-color: #006838;
+}
+
+.button {
+
+background-color: #006838;
+color: #fff;
+padding: 10px;
+}
+
+.reveal {
+
+color: #006838;
+background-color: #fff;
+border-color: #006838;
+border-width: 5px;
+}
+
+.reveal h3 {
+
+font-family: 'Dancing Script', cursive;
+text-align: center;
+font-size: 2rem;
+}
+/****END RESERVATIONS****/
+
+/****GALLERY****/
+.lobby img {
+
+height: 250px;
+width: 70%;
+}
+
+.lobby a {
+
+color: #000;
+}
+
+.pool img {
+
+height: 250px;
+width: 70%;
+}
+
+.pool a {
+
+color: #000;
+}
+
+.town img {
+
+height: 300px;
+width: 70%;
+}
+
+.town a {
+
+color: #000;
+}
+
+.bar img {
+
+height: 300px;
+width: 70%;
+}
+
+.bar a {
+
+color: #000;
+}
+
+.deck img {
+
+height: 300px;
+width: 70%;
+}
+
+.deck a {
+
+color: #000;
+}
+
+.room img {
+
+height: 300px;
+width: 70%;
+}
+
+.room a {
+
+color: #000;
+}
+
+.images {
+
+text-align: center;
+margin: 40px;
+}
+
+p {
+
+font-family: 'Domine', serif;
+font-weight: 400;
+}
+.lb-loader,.lightbox{text-align:center;line-height:0}.lb-dataContainer:after,.lb-outerContainer:after{content:"";clear:both}html.lb-disable-scrolling{overflow:hidden;position:fixed;height:100vh;width:100vw}.lightboxOverlay{position:absolute;top:0;left:0;z-index:9999;background-color:#000;filter:alpha(Opacity=80);opacity:.8;display:none}.lightbox{position:absolute;left:0;width:100%;z-index:10000;font-weight:400}.lightbox .lb-image{display:block;height:auto;max-width:inherit;max-height:none;border-radius:3px;border:4px solid #fff}.lightbox a img{border:none}.lb-outerContainer{position:relative;width:250px;height:250px;margin:0 auto;border-radius:4px;background-color:#fff}.lb-loader,.lb-nav{position:absolute;left:0}.lb-outerContainer:after{display:table}.lb-loader{top:43%;height:25%;width:100%}.lb-cancel{display:block;width:32px;height:32px;margin:0 auto;background:url(../img/loading.gif) no-repeat}.lb-nav{top:0;height:100%;width:100%;z-index:10}.lb-container>.nav{left:0}.lb-nav a{outline:0;background-image:url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)}.lb-next,.lb-prev{height:100%;cursor:pointer;display:block}.lb-nav a.lb-prev{width:34%;left:0;float:left;background:url(../img/prev.png) left 48% no-repeat;filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s}.lb-nav a.lb-prev:hover{filter:alpha(Opacity=100);opacity:1}.lb-nav a.lb-next{width:64%;right:0;float:right;background:url(../img/next.png) right 48% no-repeat;filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s}.lb-nav a.lb-next:hover{filter:alpha(Opacity=100);opacity:1}.lb-dataContainer{margin:0 auto;padding-top:5px;width:100%;border-bottom-left-radius:4px;border-bottom-right-radius:4px}.lb-dataContainer:after{display:table}.lb-data{padding:0 4px;color:#ccc}.lb-data .lb-details{width:85%;float:left;text-align:left;line-height:1.1em}.lb-data .lb-caption{font-size:13px;font-weight:700;line-height:1em}.lb-data .lb-caption a{color:#4ae}.lb-data .lb-number{display:block;clear:left;padding-bottom:1em;font-size:12px;color:#999}.lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(../img/close.png) top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}.lb-data .lb-close:hover{cursor:pointer;filter:alpha(Opacity=100);opacity:1}
+/****END GALLERY****/
+
+/****EVENTS PAGE****/
+.events {
+
+padding: 30px;
+text-align: center;
+}
+
+.events p {
+
+width: 100%;
+padding: 40px;
+font-size: 20px; 
+font-family: 'Lato', sans-serif;
+}
+
+.wedding, .meeting, .special {
+
+margin-top: 20px;
+}
+
+.wedding h2, .meeting h2, .special h2 {
+
+font-family: 'Domine', serif;
+font-weight: 700;
+font-size: 2rem;
+}
+.w img {
+
+padding: 10px;
+}
+
+.e img {
+
+padding: 10px;
+}
+
+.m img {
+
+padding: 10px;
+}
+/****END EVENTS PAGE****/
+
+/****WEDDING****/
+
+.happily img {
+
+height: 400px;
+width: 100%;
+}
+.everything {
+
+margin: 2%;
+}
+
+.list1 a {
+
+font-size: 20px;
+}
+
+.list1 {
+  
+margin: 0;
+padding: 0;
+}
+
+
+.list2 button {
+
+background-color: #006838;
+}
+
+.list2 {
+
+text-align: left;
+}
+
+.list3 a {
+
+width: 20%;
+font-size: 20px;
+padding-top: 10px;
+}
+
+.detail h3 {
+
+font-family: 'Domine', serif;
+font-weight: 400;
+}
+
+.detail p{
+
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+}
+/****END WEDDING****/
+
+/****CONTACT****/
+
+.column, .form-floating-label {
+  position: relative;
+  
+}
+
+form {
+
+width: 100%;
+}
+
+.form-floating-label [type='text'],
+.form-floating-label [type='email'],
+.form-floating-label [type='tel'],
+.form-floating-label textarea {
+
+  color: #8a8a8a;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 30px 1rem 1rem 25px;
+
+}
+
+.form-floating-label label {
+  color: #cacaca;
+  font-size: 18px;
+  position: absolute;
+  pointer-events: none;
+  left: 25px;
+  bottom: 0;
+  transition: all 0.2s ease-in;
+  font-weight: 300;
+}
+
+.form-floating-label textarea ~ label {
+  top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.form-floating-label input:focus ~ label,
+.form-floating-label input:disabled[value] ~ label,
+.form-floating-label.has-value input ~ label {
+  top: 0;
+  font-size: 14px;
+  color: dodgerblue;
+  font-weight: 400;
+}
+
+.form-floating-label textarea:focus ~ label,
+.form-floating-label.has-value textarea ~ label {
+  top: 0;
+  font-size: 14px;
+  color: dodgerblue;
+  font-weight: 400;
+  width: 100%;
+}
+
+.row ul {
+
+width: 35%;
+padding: 20px;
+float: left;
+}
+
+.floating {
+
+width: 50%;
+margin-top: 70px;
+margin-bottom: 30px;
+}
+
+.questions h2 {
+
+width: 100%;
+font-family: 'Lato', sans-serif;
+font-size: 20px;
+}
+/****END CONTACT****/
+
+/****FOOTER****/
+
+footer {
+
+  background-color: #006838;
+  padding: 20px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.links li {
+
+font-size: 18px;
+list-style: none;
+text-align: left;
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+
+}
+
+.links a {
+
+color: #ffffff;
+}
+/****END FOOTER*/
+
+/*****MEDIA QUERY****/
+@media screen and (min-width: 640px) {
+
+  [type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], textarea  {
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .view, #meeting, #country {
+    max-width: 400px;
+    
+  }
+
+  select {
+    margin: 0 auto;
+  }
+
+  fieldset { 
+    margin: 0 10%;
+  } 
+
+  .row ul {
+
+  width: 100%;
+  }
+
+  .floating {
+
+  width: 100%;
+  }
+
+  .questions h2 {
+
+  font-size: 1rem;
+  width: 100%;
+  }
+
+  .games {
+
+  width: 100%;
+  }
+
+  .games p {
+
+  font-size: 30px;
+  height: 100px;
+  }
+
+  .history p {
+
+  font-size: 1rem;
+  }
+
+  .hours li, .hours h3, .last {
+
+  font-size: 1rem;
+  }
+
+  .words {
+
+  font-size: 1rem;
+  }
+}
+
+/****END MEDIA QUERY****/
